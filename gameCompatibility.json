@@ -8695,8 +8695,8 @@
     "MultiplayerType": 0,
     "MultiplayerDetails": null,
     "NvidiaSupport": 0,
-    "AmdSupport": 4,
-    "IntelSupport": 4,
+    "AmdSupport": 0,
+    "IntelSupport": 0,
     "SetupDetails": [
       {
         "Category": "Versions",
@@ -8704,7 +8704,7 @@
         "BulletPoints": []
       }
     ],
-    "CommonIssues": [],
+    "CommonIssues": [Needs BepInEx x64 to be installed in the game folder.  BepInEx.cfg file needs to be edited in the Preloader.Entrypoint section to change Type = Application to Type = MonoBehaviour],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0
   },

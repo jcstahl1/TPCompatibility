@@ -8699,9 +8699,13 @@
     "IntelSupport": 0,
     "SetupDetails": [
       {
-        "Category": "Versions",
-        "Details": "Supported versions: ",
-        "BulletPoints": []
+        "Category": "General Setup",
+        "Details": <p style=\"font-weight: bold;\">Game</p>\r\n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li>Executable is \"Bowling.exe\" found in game's root folder.</li>\r\n\t\t\t\t\t\t</ul>",
+        "BulletPoints": [
+          "Needs BepInEx x64 to be installed.",
+          "BepInEx.cfg needs edited as noted below.",
+          "Game executable is Bowling.exe.",
+        ]
       }
     ],
     "CommonIssues": [Needs BepInEx x64 to be installed in the game folder.  BepInEx.cfg file needs to be edited in the Preloader.Entrypoint section to change Type = Application to Type = MonoBehaviour],
